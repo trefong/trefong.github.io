@@ -1,0 +1,38 @@
+header{
+  color: #FF8264;
+  font-family: Arial;
+  font-size: 20px;
+  line-height: .8em;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+body{
+  background-color: #F0DFD8;
+}
+
+h1{
+  font-family: Arial;
+  font-size: 35px;
+  text-decoration: underline;
+  margin-left: 40px;
+}
+
+img{
+vertical-align: top;
+margin-right: 40px;
+margin-left: 40px;
+border-color: ;
+}
+
+p{
+  font-family: Arial;
+  font-size: 15px;
+  margin-right: 40px;
+}
+footer{
+  text-align: center;
+  font-size: 19px;
+}
