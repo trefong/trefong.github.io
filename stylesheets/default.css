@@ -24,7 +24,10 @@ img{
 vertical-align: top;
 margin-right: 40px;
 margin-left: 40px;
-border-color: ;
+border: 10px;
+float:left;
+width:30%;
+height:40%;
 }
 
 p{
