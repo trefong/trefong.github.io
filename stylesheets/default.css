@@ -24,7 +24,7 @@ img{
 vertical-align: top;
 margin-right: 40px;
 margin-left: 40px;
-border: 10px;
+border: 10px solid black;
 float:left;
 width:30%;
 height:40%;
