@@ -22,8 +22,9 @@ h1{
   line-height: .6em;
   font-size: 35px;
   margin-left: 40px;
+  display: inline;
+  text-align: left;
 }
-
 h2{
   line-height: .6em;
   margin-left: 40px;
@@ -46,6 +47,10 @@ p{
   color:#FF8264;
   text-align: left;
   display: inline;
+}
+#index{
+  float: right;
+  display:inline;
 }
 #foreward{
   text-align: right;
