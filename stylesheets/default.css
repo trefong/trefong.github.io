@@ -1,6 +1,6 @@
 header{
   color: #FF8264;
-  font-family: Arial;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
   font-size: 20px;
   line-height: .8em;
 }
@@ -10,32 +10,65 @@ a:hover{
 }
 
 body{
-  background-color: #F0DFD8;
+  background-color: #001929;
 }
-
+#box{
+  background-color: ;
+  margin-left: 40px;
+  margin-right: 40px;
+}
 h1{
-  font-family: Arial;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
   font-size: 35px;
   text-decoration: underline;
-  margin-left: 40px;
+  margin-left: 20px;
+  padding-top: 25px;
+  color: #FF8264;
+}
+h2{
+  font-family: Arial;
+  color: #FF8264;
 }
 
-img{
+#image1{
 vertical-align: top;
 margin-right: 40px;
-margin-left: 40px;
+margin-left: 20px;
 border: 10px solid black;
 float:left;
 width:30%;
 height:40%;
+display: inline-block;
 }
+#image2{
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
 
+}
+#image3{
+ height: 50px;
+ width: auto;
+ margin-right: 10px;
+
+}
+#image4{
+ height: 50px;
+ width: auto;
+
+}
 p{
   font-family: Arial;
   font-size: 15px;
-  margin-right: 40px;
+  margin-right: 20px;
+  color: white;
 }
-footer{
+#footer{
   text-align: center;
-  font-size: 19px;
-}
+  font-size: 20px;
+  clear:both;
+  padding-bottom: 30px;
+  padding-top:25px;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+
+  }
