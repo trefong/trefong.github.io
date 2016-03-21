@@ -3,9 +3,17 @@ header{
   font-family: Monaco, Consolas, "Lucida Console", monospace;
   font-size: 20px;
   line-height: .8em;
+  max-height: 167px;
 }
-#box{
-  background-color: #808080;
+
+header img{
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  height: 167px;
+}
+h4{
+  z-index: 100;
 }
 #pad{
   padding: 1px;
@@ -40,6 +48,7 @@ h2{
 vertical-align: top;
 margin-right: 40px;
 margin-left: 20px;
+margin-bottom: 10px;
 border: 10px solid black;
 float:left;
 width:30%;
@@ -52,6 +61,7 @@ margin-top: 40px;
   height: 50px;
   width: auto;
   margin-right: 10px;
+  margin-left: 515px;
 
 }
 #image3{
@@ -63,13 +73,17 @@ margin-top: 40px;
 #image4{
  height: 50px;
  width: auto;
-
+ margin-right:
 }
 p{
   font-family: Arial;
   font-size: 15px;
   margin-right: 20px;
+  margin-left: 40px;
   color: white;
+}
+#links{
+  display: inline;
 }
 #footer{
   text-align: center;
