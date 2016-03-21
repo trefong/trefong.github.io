@@ -1,8 +1,29 @@
-h4{
-  color: #FF8264;
-  font-family: Arial;
+header{
+color: #FF8264;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
   font-size: 20px;
   line-height: .8em;
+  max-height: 167px;
+}
+
+header img{
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  height: 167px;
+  margin-bottom: 20px;
+
+}
+#pad{
+  padding: 1px;
+}
+h4{
+  color: #FF8264;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  font-size: 20px;
+  line-height: .8em;
+  max-height: 167px;
+  margin-top: 20 px;
 }
 
 a:hover{
@@ -10,24 +31,28 @@ a:hover{
 }
 
 body{
-  background-color: #F0DFD8;
+  background-color: #001929;
 }
 
 main{
-  font-family: Arial;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
 }
 
 h1{
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
   text-decoration: underline;
   line-height: .6em;
   font-size: 35px;
   margin-left: 40px;
+  margin-top: 20px;
   display: inline;
   text-align: left;
+  color: #FF8264;
 }
 h2{
   line-height: .6em;
   margin-left: 40px;
+  color: #FF8264;
 }
 
 h3{
@@ -35,15 +60,18 @@ h3{
   font-size:17px;
   font-style: italic;
   margin-left: 40px;
+  color: #FF8264;
 }
 p{
+  font-family: Arial;
   font-size:15px;
   margin-left: 40px;
   margin-right: 40px;
+  color: white;
 }
 #back{
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
   margin-left: 40px;
-  margin-right:1000px;
   color:#FF8264;
   text-align: left;
   display: inline;
@@ -51,17 +79,21 @@ p{
 #index{
   float: right;
   display:inline;
+  margin-top: 20 px;
+
 }
 #foreward{
+font-family: Monaco, Consolas, "Lucida Console", monospace;
   text-align: right;
   margin-right: 40px;
   display: inline;
+  float:right;
 }
 #reference{
   font-size: x-small;
   margin-left: 40px;
 }
-img {
+#image1{
   margin-left: 40px;
 }
 footer{
