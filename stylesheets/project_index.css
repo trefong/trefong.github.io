@@ -1,0 +1,44 @@
+header{
+  color: #FF8264;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  font-size: 20px;
+  line-height: .8em;
+  max-height: 167px;
+}
+
+header img{
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  height: 167px;
+}
+h4{
+  z-index: 100;
+}
+#pad{
+  padding: 1px;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+body{
+  background-color: #001929;
+}
+h1{
+color: #FF8264;
+font-family: Monaco, Consolas, "Lucida Console", monospace;
+margin-left: 40px;
+}
+
+p{
+  font-family: Arial;
+  font-size: 15px;
+  margin-right: 20px;
+  margin-left: 40px;
+  color: white;
+}
+
+
+
