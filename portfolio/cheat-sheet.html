@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/cheatsheet_stylesheet.css">
+  <title>JavaScript Object Cheat Sheet</title>
+</head>
+
+<body>
+
+
+<h1>
+  JavaScript Cheat Sheet - The Basics of Objects
+</h1>
+
+<div id="paragraph">
+  In Javascript, the way to organize and store data is with objects. JavaScript objects are very similar to Ruby hashes because they are set up in the same key,value format. For objects, the "keys" are called properties and describe the object, they are basically the same as normal variables except they are exclusively associated to the object it's in. Usually objects are described by comparing them to real life things. For example, the cup was the object, the cup has properties such as size, color, and brand.
+</div>
+<section>
+<h2>
+  Declaring
+</h2>
+<p>
+To declare a new JavaScript object, you can use any of the following syntaxes:
+</p>
+<img src="../imgs/declaring_object_ex.png">
+<p>
+  It's best to use the second format if you already know what your properties and values are going to be.
+</p>
+
+<h3>
+  Constructor Function
+</h3>
+<p>
+You can also use the constructor function, which uses the "this" syntax for it's properties. In this way, you can create new instances of the object you declare. First you need to establish the structure like so.
+</p>
+<img src="../imgs/constructor_function_ex1.png">
+<p>
+To create a new instance of the object with this structure:
+</p>
+<img src="../imgs/constructor_function_ex2.png">
+<p>
+  To create other objects from this structure, you just need to replace the variable name with a new name.
+</p>
+
+<h2>
+Accessing
+</h2>
+<p>
+Theyre are two different ways to access properties within an object, bracket and dot notation. Just make sure to stick to one!
+</p>
+<img src="../imgs/accessing_object_ex1.png">
+
+<h3>
+Accessing nested objects
+</h3>
+<p>
+  Sometimes you will be working with an object inside of other objects and want to access those properties. To access those you can use this syntax:
+</p>
+<img src="../imgs/accessing_object_ex2.png">
+
+<h2>
+  Adding and deleting properties
+</h2>
+<p> To add and delete properties to an object is very simple. To add a property, use the same syntax as you would if you were trying to access a property and then set it equal to what you want. If it does not exist, it will automatically add the property, if it does, it will update the property.
+</p>
+<img src="../imgs/adding_properties_object.png">
+<p>
+  To delete a property simply type delete and then the same syntax you would use to add the property.
+</p>
+<img src="../imgs/deleting_properties_object.png">
+
+
+<h2>
+  Defining a method/functions inside an object
+</h2>
+<p>
+You can define a function inside of an object that can be used on the object itself. They are defined just like normal functions excpet you have to assign them as a value of a property.
+</p>
+<img src="../imgs/defining_method_object.png">
+
+<p>
+  Now you can call that function on the object, using the method name, which is the property name.
+</p>
+</section>
+
+</body>
+</html>
