@@ -1,0 +1,37 @@
+
+
+h1{
+  font-size: 30pt;
+  text-align: center;
+}
+h2{
+  margin-left: 40px;
+  color: #007194;
+}
+
+p{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+img{
+  margin-left: 50px;
+}
+
+h3{
+  margin-left: 50px;
+  color: #C21752;
+}
+
+section{
+  padding-top: 15px;
+  padding-bottom: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+    background-color: #D3D3D3;
+}
+#paragraph{
+  margin-right: 45px;
+  margin-left: 45px;
+  padding-bottom: 10px;
+}
